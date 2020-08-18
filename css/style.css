@@ -1,0 +1,100 @@
+/*===========RESET============*/
+*{margin: 0; padding: 0; font-size: 100%; border: none; outline: none; font-weight: 300; box-sizing: border-box;
+font-family: 'Roboto', sans-serif;}
+body {background-color: #f5f5f5;}
+a {text-decoration: none;}
+ul {list-style: none;}
+img {max-width: 100%;}
+/* TOPO */
+.topo {width: 100%; height: 40px; float: left; padding: 10px 24px; letter-spacing: 1px; word-spacing: 1px; background-color: #cd353a; color:#fff; display: flex; font-size: 14px; font-weight: 300;}
+.inner-topo {margin-left: 3%;}
+.fa-phone {transform: rotate(90deg);}
+/* CABECALHO */
+.cabecalho {width: 100%; float: left; padding: 3% 4%;}
+.logo {width: 18%; height: 65px; float: left; background: url(../img/logo-mobile.png) center center/65px no-repeat; font-size: 0;}
+.btn-menu {width: 56px; height: 56px;float: right; text-align: center; color:#fff; border-radius: 60px; cursor: pointer;
+background: linear-gradient(to right,#4171a0,#cd353a);}
+/* MENU */
+.menu {width: 100%; height: 100%; position: fixed; background-color: rgba(0,0,0,0.9);top: 0; left: 0; z-index: 100;}
+.btn-close {font-size: 1.5em; color:#fff;float: right; cursor: pointer; margin: 2% 3% 0 0;}
+.menu ul {width: 100%; float: left; text-align: center;}
+.menu li {padding: 1.5%;}
+.menu li a {font-size: 2em; color:#fff; padding: 1.5% 3%;}
+.menu li a:hover {border: 1px solid #cd353a;}
+/* BANNER */
+.banner {width: 100%; height:585px; float: left;/* text-align: center; padding: 3% 4%;/*background: url(../img/banner-1.jpg) no-repeat;*/}
+
+.banner h2 {margin-top: 8%;font-size: 1.5em; color:#fff; font-weight: 700;}
+.banner h3 {font-size: 1.5em; color:#fff;}
+/* SERVIÇOS */
+.secao-servicos{width: 100%; float: left; padding: 2% 3%;}
+.secao-servicos h3 {font-size: 1.5em; text-align: center; color:#1d1d1d; font-weight: 600;  margin: 40px 0 40px 0;}
+.servicos {width: 100%; float: left; padding: 3% 4%;}
+.servico {box-shadow: 0px 0px 15px #cdcdcd;;}
+.servico {width: 100%; background-color: #fff; text-align: center; /*border-radius: 7px*/; margin-bottom:3%;}
+.servico i {margin-top: 5%;color: #4171a0;}
+.servicos :hover {background-color:#4171a0 ; color: #fff;}
+.servicos :hover i {color: #fff;}
+.servicos :hover a {color: #fff;}
+.servicos :hover h4 {color: #fff;}
+.inner {padding: 7%;}
+.inner a {font-size: 1.5em; color: #2e2e2e; font-weight: 700;}
+.inner h4 {font-size: 1.2em; color: #2e2e2e; margin-top: 10%; line-height: 24px;}
+.inner p {margin-top: 2%; color: #2e2e2e; line-height: 1.5em; }
+/* EMPRESA */
+.empresa {width: 100%; float: left; padding: 3% 4%;background-color: #4171a0 ;}
+.empresa h3 {font-size: 1.5em; text-align: center; color:#fff; font-weight: 600; margin: 20px 0 30px 0;}
+.empresa h4 {color:#fff; text-align: center; margin-bottom: 30px; line-height: 24px;}
+/* PROJETOS */
+.projetos {width: 100%; float: left; padding: 3% 4%;}
+.projetos h3 {font-size: 1.5em; text-align: center; color:#130400; font-weight: 600; margin: 50px 0 60px 0;}
+.projeto {width: 100%; background-color: #f5f5f5; text-align: center; border-radius: 7px; margin-bottom:3%;}
+.projeto img {margin: 0% 0%;}
+/*.projeto { overflow: hidden;}*/
+.projeto img { max-width: 100%; -moz-transition: all 0.3s; -webkit-transition: all 0.3s; transition: all 0.3s;}
+.projeto:hover img {-moz-transform: scale(1.1); -webkit-transform: scale(1.1); transform: scale(1.1);}
+/* CONTATOS */
+.contatos {width: 100%; float: left; padding: 3% 6%;background-color: #fff ;}
+.contatos h3 {font-size: 1.5em; text-align: center; color:#130400; font-weight: 600;}
+.contato {width: 100%; margin-top:2%; color:#fff; display: flex;}
+.contact {width: 40%; margin-top:4%; float: right; margin-left: 5%; color:#130400;}
+.contact span {font-weight: 600; float: left; color:#130400;}
+.form-contact {width: 100%; margin-top: 3%;}
+.form-contact input  {width: 90%;  padding: 6px 12px; float: left; background-color:#fff; color: #130400; border: 1px solid #ccc; border-left: 0; margin-top:2%;  border-radius: 0 4px 4px 0;}
+.form-contact i  {float: left; color: #555;}
+.form-contact textarea {width: 90%; height: 80px; padding: 6px 12px; float: left; background-color:#fff; color: #130400; border: 1px solid #ccc; border-left: 0; margin-top:2%; border-radius: 0 4px 4px 0;}
+.form-contact button {font-size: 14px; padding: 6px 12px;; display: inline-block; float: right; background-color:#4171a0; color: #fff;margin-top:2%; margin-right: 4.5%; border-radius: 4px;  cursor: pointer;}
+.form-contact button i { margin-top: 2px; margin-right: 10px; color: #fff;}
+.icon-form-contact {float: left; color: #555; margin-top:2%; background-color: #eee;padding: 7.5px 12px;border: 1px solid #ccc; border-radius: 4px 0 0 4px;}
+.icon-form-contact-textarea{float: left; height: 80px; color: #555; margin-top:2%;  background-color: #eee;padding: 28px 13px; border: 1px solid #ccc; border-radius: 4px 0 0 4px;}   
+ /* RODAPÉ */
+ .footer  {width: 100%; float: left; padding: 2% 3%;background-color: #cdcdcd ;}
+ .rodape p {font-size: 0.8em; text-align: center; color:#130400; font-weight: 300; margin-top: 0%;}
+ 
+/*======== MOBILE FIRST======== */
+
+/* SMALL DEVICES - SMARTPHONES */
+@media screen and (min-width: 1200px) {
+.logo {width: 120px; background: url(../img/logo_empresa.png) center center/120px no-repeat;}
+}
+
+/* SMALL DEVICES - SMARTPHONES */
+@media screen and (min-width: 980px) {
+    /* SMALL DEVICES - TABLETS */
+    .servico {width: 24%;height: 250px; float: left; margin-right: 1%;}
+    .servico i {margin-top: 15%;color: #4171a0;}
+    .servicos a {font-size: 1em;font-weight: 300;}
+    .servicos h4 {font-size: 13px; font-family: 'Open Sans', arial, sans-serif;}
+    .inner a {font-size: 1em;font-weight: 600;}
+    .servico:nth-child(2) {margin-left: 0%;}
+    .projeto {width: 22%;float: left; margin-right: 2%;}
+    .projeto:nth-child(2) {margin-left: 3%;}
+    .btn-menu {display: none;}
+    .btn-close {display: none;}
+    .menu{width: auto; height: 56px; line-height: 56px; float: right; background-color: #f5f5f5; display: block !important; position: static;}
+    .menu li {padding: 0; float: left;}
+    .menu li a {color: #130400; font-size: 1em; padding: 15px;}
+    .menu li a:hover {border: none; color: #4171a0 ;}
+
+}
+    
