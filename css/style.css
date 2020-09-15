@@ -6,7 +6,7 @@ a {text-decoration: none;}
 ul {list-style: none;}
 img {max-width: 100%;}
 /* TOPO */
-.topo {width: 100%; height: 40px; float: left; padding: 10px 24px; letter-spacing: 0.5px; word-spacing: 0.5px; background-color: #cd353a; color:#fff; display: flex; font-size: 14px; font-weight: 300;}
+.topo {width: 100%; height: 40px; float: left; padding: 10px 24px; letter-spacing: 1px; word-spacing: 1px; background-color: #cd353a; color:#fff; display: flex; font-size: 14px; font-weight: 300;}
 .inner-topo {margin-left: 3%;}
 .fa-phone {transform: rotate(90deg);}
 /* CABECALHO */
@@ -31,7 +31,7 @@ background: linear-gradient(to right,#4171a0,#cd353a);}
 .secao-servicos h3 {font-size: 1.5em; text-align: center; color:#1d1d1d; font-weight: 600;  margin: 40px 0 40px 0;}
 .servicos {width: 100%; float: left; padding: 3% 4%;}
 .servico {box-shadow: 0px 0px 15px #cdcdcd;;}
-.servico {width: 100%; background-color: #fff; text-align: center; /*border-radius: 7px*/; margin-bottom:3%;}
+.servico {max-width: 100%;width: 100%; background-color: #fff; text-align: center; /*border-radius: 7px*/; margin-bottom:3%;}
 .servico i {margin-top: 5%;color: #4171a0;}
 .servicos :hover {background-color:#4171a0 ; color: #fff;}
 .servicos :hover i {color: #fff;}
@@ -71,27 +71,53 @@ background: linear-gradient(to right,#4171a0,#cd353a);}
 /*======== MOBILE FIRST======== */
 
 /* SMALL DEVICES - SMARTPHONES */
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 480px) {
 .logo {width: 120px; background: url(../img/logo_empresa.png) center center/120px no-repeat;}
+.banner {height: auto;}
+.contact {width: 10%; margin-top:4%; float: right; margin-left: 5%; color:#130400;}
 }
 
-/* SMALL DEVICES - SMARTPHONES */
-@media screen and (min-width: 980px) {
-    /* SMALL DEVICES - TABLETS */
-    .servico {width: 24%;height: 250px; float: left; margin-right: 1%;}
+/* SMALL DEVICES - TABLETS */
+@media screen and (min-width: 768px) {
+
+    .banner {height: auto;}
+    .servico {width: 49%;height: 250px; float: left; margin-right: 2%;}
     .servico i {margin-top: 15%;color: #4171a0;}
     .servicos a {font-size: 1em;font-weight: 300;}
     .servicos h4 {font-size: 13px; font-family: 'Open Sans', arial, sans-serif;}
     .inner a {font-size: 1em;font-weight: 600;}
-    .servico:nth-child(2) {margin-left: 0%;}
-    .projeto {width: 22%;float: left; margin-right: 2%;}
-    .projeto:nth-child(2) {margin-left: 3%;}
+    .servico:nth-child(2) {margin-right:0;}
+    .servico:nth-child(4) {margin-right:0;}
+    .projeto {width: 49%;float: left; margin-right: 2%;}
+    .projeto:nth-child(2) {margin-right:0;}
+    .projeto:nth-child(4) {margin-right:0;}
     .btn-menu {display: none;}
     .btn-close {display: none;}
     .menu{width: auto; height: 56px; line-height: 56px; float: right; background-color: #f5f5f5; display: block !important; position: static;}
     .menu li {padding: 0; float: left;}
     .menu li a {color: #130400; font-size: 1em; padding: 15px;}
     .menu li a:hover {border: none; color: #4171a0 ;}
-
 }
+
+@media screen and (min-width: 960px) {
+    /* SMALL DEVICES - TABLETS & DESKTOPS */
+    .banner {height: auto;}
+    .servico {width: 24%;height: auto; margin-right: 1%; margin-left: 0;}
+    .servico i {margin-top: 15%;color: #4171a0;}
+    .servicos a {font-size: 1em;font-weight: 300;}
+    .servicos h4 {font-size: 13px; font-family: 'Open Sans', arial, sans-serif;}
+    .inner a {font-size: 1em;font-weight: 600;}
+    .servico:nth-child(2) {margin-right:1%; margin-left: 0;}
+    .servico:nth-child(4) {margin-right:0; margin-left: 0;}
+    .projeto {width: 24%; margin-right: 1%;}
+    .projeto:nth-child(2) {margin-right:1%;}
+    .projeto:nth-child(4) {margin-right:1%;}
+    .btn-menu {display: none;}
+    .btn-close {display: none;}
+    .menu{width: auto; height: 56px; line-height: 56px; float: right; background-color: #f5f5f5; display: block !important; position: static;}
+    .menu li {padding: 0; float: left;}
+    .menu li a {color: #130400; font-size: 1em; padding: 15px;}
+    .menu li a:hover {border: none; color: #4171a0 ;}
+}
+
     
