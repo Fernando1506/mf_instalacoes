@@ -6,7 +6,7 @@ a {text-decoration: none;}
 ul {list-style: none;}
 img {max-width: 100%;}
 /* TOPO */
-.topo {width: 100%; height: 40px; float: left; padding: 10px 24px; letter-spacing: 1px; word-spacing: 1px; background-color: #cd353a; color:#fff; display: flex; font-size: 14px; font-weight: 300;}
+.topo {width: 100%; height: 40px; float: left; padding: 10px 24px; letter-spacing: 0.5px; word-spacing: 0.5px; background-color: #cd353a; color:#fff; display: flex; font-size: 14px; font-weight: 300;}
 .inner-topo {margin-left: 3%;}
 .fa-phone {transform: rotate(90deg);}
 /* CABECALHO */
@@ -60,13 +60,10 @@ background: linear-gradient(to right,#4171a0,#cd353a);}
 .contact {width: 40%; margin-top:4%; float: right; margin-left: 5%; color:#130400;}
 .contact span {font-weight: 600; float: left; color:#130400;}
 .form-contact {width: 100%; margin-top: 3%;}
-.form-contact input  {width: 90%;  padding: 6px 12px; float: left; background-color:#fff; color: #130400; border: 1px solid #ccc; border-left: 0; margin-top:2%;  border-radius: 0 4px 4px 0;}
-.form-contact i  {float: left; color: #555;}
-.form-contact textarea {width: 90%; height: 80px; padding: 6px 12px; float: left; background-color:#fff; color: #130400; border: 1px solid #ccc; border-left: 0; margin-top:2%; border-radius: 0 4px 4px 0;}
-.form-contact button {font-size: 14px; padding: 6px 12px;; display: inline-block; float: right; background-color:#4171a0; color: #fff;margin-top:2%; margin-right: 4.5%; border-radius: 4px;  cursor: pointer;}
-.form-contact button i { margin-top: 2px; margin-right: 10px; color: #fff;}
-.icon-form-contact {float: left; color: #555; margin-top:2%; background-color: #eee;padding: 7.5px 12px;border: 1px solid #ccc; border-radius: 4px 0 0 4px;}
-.icon-form-contact-textarea{float: left; height: 80px; color: #555; margin-top:2%;  background-color: #eee;padding: 28px 13px; border: 1px solid #ccc; border-radius: 4px 0 0 4px;}   
+.form-contact input  {width: 100%;  padding: 6px 12px; float: left; background-color:#fff; color: #130400; border: 1px solid #ccc; margin-top:2%;  border-radius: 4px;}
+.form-contact textarea {width: 100%; height: 80px; padding: 6px 12px; float: left; background-color:#fff; color: #130400; border: 1px solid #ccc; margin-top:2%; border-radius: 4px;}
+.form-contact button {font-size: 14px; padding: 6px 12px;; display: inline-block; float: right; background-color:#4171a0; color: #fff;margin-top:2%; border-radius: 4px;  cursor: pointer;}
+.form-contact button i { margin-top: 2px; margin-right: 10px; float: left; color: #fff;}
  /* RODAPÉ */
  .footer  {width: 100%; float: left; padding: 2% 3%;background-color: #cdcdcd ;}
  .rodape p {font-size: 0.8em; text-align: center; color:#130400; font-weight: 300; margin-top: 0%;}
@@ -74,7 +71,7 @@ background: linear-gradient(to right,#4171a0,#cd353a);}
 /*======== MOBILE FIRST======== */
 
 /* SMALL DEVICES - SMARTPHONES */
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1280px) {
 .logo {width: 120px; background: url(../img/logo_empresa.png) center center/120px no-repeat;}
 }
 
