@@ -90,13 +90,7 @@ background: linear-gradient(to right,#4171a0,#cd353a);}
     .projeto {width: 49%;float: left; margin-right: 2%;}
     .projeto:nth-child(2) {margin-right:0;}
     .projeto:nth-child(4) {margin-right:0;}
-    .btn-menu {display: none;}
-    .btn-close {display: none;}
-    .menu{width: auto; height: 56px; line-height: 56px; float: right; background-color: #f5f5f5; display: block !important; position: static;}
-    .menu li {padding: 0; float: left;}
-    .menu li a {color: #130400; font-size: 1em; padding: 15px;}
-    .menu li a:hover {border: none; color: #4171a0 ;}
-}
+
 
 @media screen and (min-width: 960px) {
     /* SMALL DEVICES - TABLETS & DESKTOPS */
