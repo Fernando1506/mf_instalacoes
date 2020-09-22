@@ -54,18 +54,20 @@ background: linear-gradient(to right,#4171a0,#cd353a);}
 .projeto img { max-width: 100%; -moz-transition: all 0.3s; -webkit-transition: all 0.3s; transition: all 0.3s;}
 .projeto:hover img {-moz-transform: scale(1.1); -webkit-transform: scale(1.1); transform: scale(1.1);}
 /* CONTATOS */
-.contatos {width: 100%; float: left; padding: 3% 6%;background-color: #fff ;}
-.contatos h3 {font-size: 1.5em; text-align: center; color:#130400; font-weight: 600;}
-.contato {width: 100%; margin-top:2%; color:#fff; display: flex;}
-.contact {width: 40%; margin-top:4%; float: right; margin-left: 5%; color:#130400;}
-.contact span {font-weight: 600; float: left; color:#130400;}
+.secao-contatos{width: 100%; float: left; padding: 2% 3%;background-color: #fff}
+.secao-contatos h3 {font-size: 1.5em; text-align: center; color:#1d1d1d; font-weight: 600;  margin: 40px 0 40px 0;}
+
+
+
+
 .form-contact {width: 100%; margin-top: 3%;}
-.form-contact input  {width: 100%;  padding: 6px 12px; float: left; background-color:#fff; color: #130400; border: 1px solid #ccc; margin-top:2%;  border-radius: 4px;}
-.form-contact textarea {width: 100%; height: 80px; padding: 6px 12px; float: left; background-color:#fff; color: #130400; border: 1px solid #ccc; margin-top:2%; border-radius: 4px;}
+.form-contact input  {width: 100%;  padding: 6px 12px; float: left; font-size: 1em; background-color:#fff color: #130400; border: 1px solid #ccc; margin-top:2%;  border-radius: 4px;}
+.form-contact textarea {width: 100%; height: 80px; padding: 6px 12px; float: left; font-size: 1em; background-color:#fff; color: #130400; border: 1px solid #ccc; margin-top:2%; border-radius: 4px;}
 .form-contact button {font-size: 14px; padding: 6px 12px;; display: inline-block; float: right; background-color:#4171a0; color: #fff;margin-top:2%; border-radius: 4px;  cursor: pointer;}
 .form-contact button i { margin-top: 2px; margin-right: 10px; float: left; color: #fff;}
+
  /* RODAPÉ */
- .footer  {width: 100%; float: left; padding: 2% 3%;background-color: #cdcdcd ;}
+ .footer  {max-width: 100%; width: 100%; float: left; padding: 2% 3%;background-color: #cdcdcd ;}
  .rodape p {font-size: 0.8em; text-align: center; color:#130400; font-weight: 300; margin-top: 0%;}
  
 /*======== MOBILE FIRST======== */
@@ -77,46 +79,56 @@ background: linear-gradient(to right,#4171a0,#cd353a);}
 .banner {height: auto;}
 .servico {font-size: 0.8em;}
 .topo {display: none;}
-
+.contato span {font-weight: 600; float: left; color:#130400; font-size: 0.5em;}
 }
 
 /* SMALL DEVICES - TABLETS */
 @media screen and (min-width: 720px) {
-    .cabecalho {padding: 4% 4%;}
-    .banner {height: auto;}
-    .servico {width: 49%;height: 250px; float: left; margin-right: 2%;}
-    .servico i {margin-top: 15%;color: #4171a0;}
-    .servicos a {font-size: 1.5em;font-weight: 300;}
-    .servicos h4 {font-size: 13px; font-family: 'Open Sans', arial, sans-serif;}
-    .inner a {font-size: 1em;font-weight: 600;}
-    .servico:nth-child(2) {margin-right:0;}
-    .servico:nth-child(4) {margin-right:0;}
-    .projeto {width: 49%;float: left; margin-right: 2%;}
-    .projeto:nth-child(2) {margin-right:0;}
-    .projeto:nth-child(4) {margin-right:0;}
+.cabecalho {padding: 4% 4%;}
+.banner {height: auto;}
+.servico {width: 49%;height: 250px; float: left; margin-right: 2%;}
+.servico i {margin-top: 15%;color: #4171a0;}
+.servicos a {font-size: 1.5em;font-weight: 300;}
+.servicos h4 {font-size: 13px; font-family: 'Open Sans', arial, sans-serif;}
+.inner a {font-size: 1em;font-weight: 600;}
+.servico:nth-child(2) {margin-right:0;}
+.servico:nth-child(4) {margin-right:0;}
+.projeto {width: 49%;float: left; margin-right: 2%;}
+.projeto:nth-child(2) {margin-right:0;}
+.projeto:nth-child(4) {margin-right:0;}
     
 }
 
    /* LARGE DEVICES - WIDE SCREEN */
 @media screen and (min-width: 980px) {
-    .topo {width: 100%; height: 40px; float: left; padding: 10px 24px; letter-spacing: 1px; word-spacing: 1px; background-color: #cd353a; color:#fff; display: flex; font-size: 14px; font-weight: 300;}
-    .banner {height: auto;}
-    .servico {width: 24%;height: auto; margin-right: 1%; margin-left: 0; font-size: 1em;}
-    .servico i {margin-top: 15%;color: #4171a0;}
-    .servicos a {font-size: 1em;font-weight: 300;}
-    .servicos h4 {font-size: 13px; font-family: 'Open Sans', arial, sans-serif;}
-    .inner a {font-size: 1em;font-weight: 600;}
-    .servico:nth-child(2) {margin-right:1%; margin-left: 0;}
-    .servico:nth-child(4) {margin-right:0; margin-left: 0;}
-    .projeto {width: 24%; margin-right: 1%;}
-    .projeto:nth-child(2) {margin-right:1%;}
-    .projeto:nth-child(4) {margin-right:1%;}
-    .btn-menu {display: none;}
-    .btn-close {display: none;}
-    .menu{width: auto; height: 56px; line-height: 56px; float: right; background-color: #f5f5f5; display: block !important; position: static;}
-    .menu li {padding: 0; float: left;}
-    .menu li a {color: #130400; font-size: 1em; padding: 15px;}
-    .menu li a:hover {border: none; color: #4171a0 ;}
-
+    
+.topo {width: 100%; height: 40px; float: left; padding: 10px 24px; letter-spacing: 1px; word-spacing: 1px; background-color: #cd353a; color:#fff; display: flex; font-size: 14px; font-weight: 300;}
+.banner {height: auto;}
+.servico {width: 24%;height: auto; margin-right: 1%; margin-left: 0; font-size: 1em;}
+.servico i {margin-top: 15%;color: #4171a0;}
+.servicos a {font-size: 1em;font-weight: 300;}
+.servicos h4 {font-size: 13px; font-family: 'Open Sans', arial, sans-serif;}
+.inner a {font-size: 1em;font-weight: 600;}
+.servico:nth-child(2) {margin-right:1%; margin-left: 0;}
+.servico:nth-child(4) {margin-right:0; margin-left: 0;}
+.projeto {width: 24%; margin-right: 1%;}
+.projeto:nth-child(2) {margin-right:1%;}
+.projeto:nth-child(4) {margin-right:1%;}
+.btn-menu {display: none;}
+.btn-close {display: none;}
+.menu{width: auto; height: 56px; line-height: 56px; float: right; background-color: #f5f5f5; display: block !important; position: static;}
+.menu li {padding: 0; float: left;}
+.menu li a {color: #130400; font-size: 1em; padding: 15px;}
+.menu li a:hover {border: none; color: #4171a0 ;}
+.contatos {width: 100%; float: left; padding: 3% 10%; display: flex;}
+.contato {max-width: 120%; width: 120%; /*border-radius: 7px*/; margin-bottom:3%;}
+.contato p {max-width: 80%; width: 80%; /*border-radius: 7px*/; }
+.contact {max-width: 80%; width: 100%; float: left; padding: 3% 0; color:#130400;}
+.contact span {font-weight: 600; float: left; color:#130400;}
+.form-contact {width: 100%; margin-top: 3%;}
+.form-contact input  {width: 100%;  padding: 6px 12px; float: left; font-size: 1em; background-color:#fff color: #130400; border: 1px solid #ccc; margin-top:2%;  border-radius: 4px;}
+.form-contact textarea {width: 100%; height: 80px; padding: 6px 12px; float: left; font-size: 1em; background-color:#fff; color: #130400; border: 1px solid #ccc; margin-top:2%; border-radius: 4px;}
+.form-contact button {font-size: 14px; padding: 6px 12px;; display: inline-block; float: right; background-color:#4171a0; color: #fff;margin-top:2%; border-radius: 4px;  cursor: pointer;}
+.form-contact button i { margin-top: 2px; margin-right: 10px; float: left; color: #fff;}
 }
 
