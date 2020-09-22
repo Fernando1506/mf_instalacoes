@@ -120,7 +120,7 @@ background: linear-gradient(to right,#4171a0,#cd353a);}
 .menu li {padding: 0; float: left;}
 .menu li a {color: #130400; font-size: 1em; padding: 15px;}
 .menu li a:hover {border: none; color: #4171a0 ;}
-.contatos {width: 100%; float: left; padding: 3% 10%; display: flex;}
+.contatos {width: 100%;height: auto; float: left; padding: 2% 10%; display: flex;}
 .contato {max-width: 120%; width: 120%; /*border-radius: 7px*/; margin-bottom:3%;}
 .contato p {max-width: 80%; width: 80%; /*border-radius: 7px*/; }
 .contact {max-width: 80%; width: 100%; float: left; padding: 3% 0; color:#130400;}
