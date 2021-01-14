@@ -12,11 +12,12 @@
     <meta name="description"
         content="Desde 1986 atuando no mercado com larga experiência em instalações de redes de gás nos seguimentos Industrial e Comercial..">
     <meta name="keywords"
-        content="MF Instalações, Teste de estanqueidade, Tubulação, Gás, Redes de Gás, Instalação de redes de gás, Gás GLP, Instalação Hidráulica">
+        content="MF Instalações, MF Instalacoes, Teste de estanqueidade, Tubulação, Gás, Redes de Gás, Instalação de redes de gás, Gás GLP, Instalação Hidráulica">
     <link rel="canonical" href="https://www.mfinstalacoes.com.br">
     <meta name="robots" content="index">
 
     <!-- Links de estilos e fontes -->
+    <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/fontawesome-free-5.13.1-web/css/all.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet"
@@ -49,13 +50,13 @@
         </a>
         <button class="btn-menu"><i class="fa fa-bars fa-lg" aria-hidden="true"></i></button>
         <nav class="menu" id="menu">
-            <a class="btn-close"><i class="fa fa-times"></i></a>
+            <!--<a class="btn-close"><i class="fa fa-times"></i></a>-->
             <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#servicos">Serviços</a></li>
-                <li><a href="#projetos">Projetos</a></li>
-                <li><a href="#empresa">Empresa</a></li>
-                <li><a href="#contatos">Contato</a></li>
+                <li><a class="close" href="#">Home</a></li>
+                <li><a class="close" href="#servicos">Serviços</a></li>
+                <li><a class="close" href="#projetos">Projetos</a></li>
+                <li><a class="close" href="#empresa">Empresa</a></li>
+                <li><a class="close" href="#contatos">Contato</a></li>
             </ul>
         </nav>
         <!-- BANNER -->
@@ -118,7 +119,8 @@
                 Industrial e Comercial.
                 <br>Com total qualidade e responsabilidade com o cliente. Nossa prioridade é a satisfação do
                 cliente, entregando a obra no prazo determinado,<br> com mão de
-                obra profissional e qualificada, com matéria prima de qualidade e atendimento diferenciado.</h4>
+                obra profissional e qualificada, com matéria prima de qualidade e atendimento diferenciado.
+            </h4>
         </div>
     </main>
     <!-- PROJETOS -->
@@ -137,6 +139,18 @@
         </div>
         <div class="projeto">
             <img src="img/Projetos/004.jpg" alt="">
+        </div>
+        <div class="projeto">
+            <img src="img/Projetos/005.jpg" alt="">
+        </div>
+        <div class="projeto">
+            <img src="img/Projetos/006.jpg" alt="">
+        </div>
+        <div class="projeto">
+            <img src="img/Projetos/007.jpg" alt="">
+        </div>
+        <div class="projeto">
+            <img src="img/Projetos/008.jpg" alt="">
         </div>
     </main>
     <!-- CONTATOS -->
@@ -164,7 +178,7 @@
                         </span>
                     </strong>
                     <br>
-                    16 3942-6906
+                    16 99171-3134
                 </p>
                 <br> <br>
 
@@ -218,7 +232,7 @@
         $(".btn-menu").click(function () {
             $(".menu").show();
         });
-        $(".btn-close").click(function () {
+        $(".close").click(function () {
             $(".menu").hide();
         });
     </script>
